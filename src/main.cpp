@@ -395,9 +395,6 @@ int main() {
 #else
     cout << "[DISABLED] countReachableKeys() function - uncomment #define in solver.h to enable" << endl;
 #endif
-    cout << "[EXTRA CREDIT] Modify/improve the key-door BFS implementation" << endl;
-    cout << "[EXTRA CREDIT] Add more sophisticated test cases" << endl;
-    cout << "[EXTRA CREDIT] Implement visualization or animation features" << endl;
     
     return 0;
 }

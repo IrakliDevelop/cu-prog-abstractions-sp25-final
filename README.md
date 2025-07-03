@@ -254,12 +254,12 @@ struct Cell {
 
 | Component | Points |
 |-----------|--------|
-| Maze generator (perfect maze + rooms) | 4 |
-| Basic BFS pathfinding (S→E) | 5 |
-| Extended BFS with keys & doors | 6 |
-| Clean code, decomposition, comments | 3 |
+| Maze generator (perfect maze + rooms) | 6 |
+| Basic BFS pathfinding (S→E) | 8 |
+| Extended BFS with keys & doors | 10 |
+| Clean code, decomposition, comments | 4 |
 | No memory leaks / proper I/O | 2 |
-| **Extra credit** Animation or monsters | +3 |
+| **Total** | 30 |
 
 ## Submission
 
