@@ -46,7 +46,8 @@ bool isPassable(const vector<string>& dungeon, int row, int col) {
     if (cell == '#') return false;
     
     // Doors are impassable for basic BFS (key-door BFS handles doors separately)
-    if (cell >= 'A' && cell <= 'F') return false;
+    // Note: 'E' (exit) is not a door, so exclude it from door check
+    if (cell >= 'A' && cell <= 'F' && cell != 'E') return false;
     
     // Everything else (spaces, S, E, keys a-f) is passable
     return true;
